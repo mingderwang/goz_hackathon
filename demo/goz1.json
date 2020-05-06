@@ -1,0 +1,21 @@
+{
+  "src": {
+    "chain-id": "muzamint",
+    "client-id": "muzaclient",
+    "connection-id": "muzaconnection",
+    "channel-id": "muzatransfer",
+    "port-id": "transfer",
+    "order": "ordered"
+  },
+  "dst": {
+    "chain-id": "gameofzoneshub-1a",
+    "client-id": "gozclient",
+    "connection-id": "gozconnection",
+    "channel-id": "goztransfer",
+    "port-id": "transfer",
+    "order": "ordered"
+  },
+  "strategy": {
+    "type": "naive"
+  }
+}

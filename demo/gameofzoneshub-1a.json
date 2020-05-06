@@ -1,0 +1,1 @@
+{"key":"faucet","chain-id":"gameofzoneshub-1a","rpc-addr":"http://35.233.155.199:26657","account-prefix":"cosmos","gas":200000,"gas-prices":"0.025doubloons","default-denom":"doubloons","trusting-period":"90m"}
