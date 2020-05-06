@@ -1,0 +1,38 @@
+global:
+  timeout: 30s
+  lite-cache-size: 50
+chains:
+- key: faucet
+  chain-id: gameofzoneshub-1a
+  rpc-addr: http://35.233.155.199:26657
+  account-prefix: cosmos
+  gas: 500000
+  gas-prices: 0.025doubloons
+  default-denom: doubloons
+  trusting-period: 90m
+- key: faucet
+  chain-id: muzamint
+  rpc-addr: http://muzamint.com:26657
+  account-prefix: cosmos
+  gas: 500000
+  gas-prices: 0.025muza
+  default-denom: muza
+  trusting-period: 90m
+paths:
+  ming2:
+    src:
+      chain-id: muzamint
+      client-id: anreucycpo
+      connection-id: pdadhzezzv
+      channel-id: mhpbhsjdjy
+      port-id: transfer
+      order: ORDERED
+    dst:
+      chain-id: gameofzoneshub-1a
+      client-id: hnamqxedtc
+      connection-id: barmcrmilm
+      channel-id: uvylybrgoc
+      port-id: transfer
+      order: ORDERED
+    strategy:
+      type: naive
