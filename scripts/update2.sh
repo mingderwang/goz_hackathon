@@ -10,7 +10,7 @@ go_run=true
 loop() {
 if $go_run 
 then
-	echo "go"
+	echo "go in $1"
 result=$(/home/mwang/update22.sh | jq .height -)
 echo $result
 #result='"0"'
@@ -34,8 +34,8 @@ fi
 
 }
 
-for i in {1..99}
+for i in {1..999}
 do
    #echo "try $i times"
-   loop
+   loop $i
 done
