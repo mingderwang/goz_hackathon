@@ -1,2 +1,2 @@
 #!/bin/sh
-rly transact raw update-client gameofzoneshub-1a muzamint czrwylqftc
+rly transact raw update-client gameofzoneshub-1a muzamint gfddnmizeq
