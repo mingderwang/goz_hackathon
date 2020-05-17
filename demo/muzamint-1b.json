@@ -1,0 +1,1 @@
+{"key":"faucet","chain-id":"muzamint-1b","rpc-addr":"http://muzamint.com:26657","account-prefix":"cosmos","gas":200000,"gas-prices":"0.0025muza","default-denom":"muza","trusting-period":"10m"}

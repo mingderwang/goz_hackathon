@@ -56,8 +56,8 @@ rly dev faucet $USER $HOME $CHAINID $RLYKEY 100000$DENOM > faucet.service
 sudo mv gaiad.service /etc/systemd/system/gaiad.service
 sudo mv faucet.service /etc/systemd/system/faucet.service
 sudo systemctl daemon-reload
-sudo systemctl start gaiad
-sudo systemctl start faucet
+#sudo systemctl start gaiad
+#sudo systemctl start faucet
 
 # Server _should_ be ready to go!
 # Be sure you have the text from ~/$CHAINID.json for the next step

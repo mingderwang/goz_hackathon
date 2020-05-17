@@ -1,6 +1,6 @@
 {
   "src": {
-    "chain-id": "muzamint",
+    "chain-id": "muzamint-1b",
     "client-id": "muzaclient",
     "connection-id": "muzaconnection",
     "channel-id": "muzatransfer",
@@ -8,7 +8,7 @@
     "order": "ordered"
   },
   "dst": {
-    "chain-id": "gameofzoneshub-2",
+    "chain-id": "gameofzoneshub-1b",
     "client-id": "gozclient",
     "connection-id": "gozconnection",
     "channel-id": "goztransfer",

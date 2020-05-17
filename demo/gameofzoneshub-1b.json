@@ -1,7 +1,7 @@
 {
   "key": "faucet",
-  "chain-id": "gameofzoneshub-2",
-  "rpc-addr": "http://35.190.35.11:80",
+  "chain-id": "gameofzoneshub-1b",
+  "rpc-addr": "http://51.15.123.82:26657",
   "account-prefix": "cosmos",
   "gas": 200000,
   "gas-prices": "0.0025doubloons",
