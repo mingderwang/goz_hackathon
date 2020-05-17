@@ -1,6 +1,6 @@
 {
   "src": {
-    "chain-id": "muzamint-2",
+    "chain-id": "muzamint",
     "client-id": "muzaclient",
     "connection-id": "muzaconnection",
     "channel-id": "muzatransfer",

@@ -1,0 +1,15 @@
+
+rly keys add muzamint testkey
+
+# confiure the chain to use that key by default
+rly ch edit muzamint key testkey
+
+# initialize the lite client for muzamint
+rly lite init muzamint -f
+
+# request funds from the faucet to test it
+rly tst request muzamint testkey
+
+# you should see a balance for the rly key now
+rly q bal muzamint
+
