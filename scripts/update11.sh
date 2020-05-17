@@ -1,2 +1,2 @@
 #!/bin/sh
-rly transact raw update-client ibc0 ibc1 jlzyycptap 
+rly transact raw update-client muzamint-1b gameofzoneshub-1b glvvxujeqi 
