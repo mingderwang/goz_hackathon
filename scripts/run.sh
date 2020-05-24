@@ -2,6 +2,7 @@
 while :
 do
 	echo "Press [CTRL+C] to stop.."
+	date
         ./update_all.sh
-	sleep 5300
+	sleep 120
 done

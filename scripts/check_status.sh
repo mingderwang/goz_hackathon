@@ -1,0 +1,1 @@
+gaiacli query ibc client states --chain-id muzamint-1b | jq ' .[] | select(.value.trusting_period!=null) | (.value.trusting_period +","+.value.last_header.signed_header.header.time+","+.value.last_header.signed_header.header.chain_id  )'
