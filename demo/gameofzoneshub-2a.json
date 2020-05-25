@@ -1,10 +1,11 @@
 {
   "key": "faucet",
-  "chain-id": "gameofzoneshub-1b",
-  "rpc-addr": "http://51.15.123.82:26657",
+  "chain-id": "gameofzoneshub-2a",
+  "rpc-addr": "http://35.190.35.11:80",
   "account-prefix": "cosmos",
   "gas": 200000,
+  "gas-adjustment": 1.5,
   "gas-prices": "0.0025doubloons",
   "default-denom": "doubloons",
-  "trusting-period": "10m"
+  "trusting-period": "330h"
 }
