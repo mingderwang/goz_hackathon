@@ -4,7 +4,8 @@
   "rpc-addr": "http://muzamint.com:26657",
   "account-prefix": "cosmos",
   "gas": 200000,
-  "gas-prices": "0.0025muza",
+  "gas-adjustment": 1.5,
+  "gas-prices": "0.00025muza",
   "default-denom": "muza",
   "trusting-period": "330h"
 }
